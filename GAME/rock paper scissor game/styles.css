@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,15 +10,15 @@ body {
 }
 
 .game-container {
-    background-color: #fff;
+    background-color: #1e1e1e; /* Darker background for the container */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
 }
 
 h1 {
-    color: #333;
+    color: #ffffff; /* White color for the title */
 }
 
 .choices {
@@ -38,5 +39,5 @@ h1 {
 .result {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #333;
+    color: #ffffff; /* Light color for the result text */
 }
